@@ -1,0 +1,16 @@
+#title: model_1
+#domain: 0.540 0.210 0.002
+#dx_dy_dz: 0.002 0.002 0.002
+#time_window: 5e-9
+#material: 4.0 0.01 1.0 0 my_sand_1
+
+#waveform: ricker 1 1.5e9 my_ricker
+#hertzian_dipole: z 0.040 0.170 0 my_ricker
+
+#rx: 0.080 0.170 0
+
+#box: 0 0 0 0.540 0.170 0.002 my_sand_1
+
+#cylinder: 0.18 0.15 0 0.18 0.15 0.002 0.005 pec
+
+geometry_view: 0 0 0 0.540 0.210 0.002 0.002 0.002 0.002 my_soil n
